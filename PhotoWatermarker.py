@@ -164,7 +164,7 @@ def _calc_cut_off_index(signature_window):
     """
     n_rows, n_cols = np.shape(signature_window)
     row_avg = [np.mean(row) for row in signature_window]
-    for i in range(0, n_rows):
+    for i in range(n_rows):
         tolerated_range = _calculate_tolerance_range(row_avg[i], 'sign_pix')
         dev_pix = filter(lambda pix:
                  (not(tolerated_range[0] <= pix <= tolerated_range[1])),
