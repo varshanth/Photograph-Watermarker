@@ -37,8 +37,6 @@ def print_debug_msg(function_matrix, message, debug_level):
     """
     Title: Print Debug Messages
     Input 1: Function Matrix - Functions executed to get the primary message
-"debug_lib.py" 98L, 2598C
-
     Input 2: Secondary Message
     Input 3: Debug Level
     Output: None
