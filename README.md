@@ -24,7 +24,7 @@ Concepts used & logic:
 2) Total Row Deviation Percentage: For a given window of the photo, for every row, calculate the percentage of pixels deviating from each row's average. Total row deviation is the average of each row's deviation
 3) Total Column Deviation Percentage: For a given window of the photo, for every column, calculate the percentage of pixels deviating from each column's average. Total column deviation is the average of each row's deviation
 
-The signature is optimized based on uniformity to determine exact pixels of the signature. The size of new optimized signature is used as the size of the window to be used to sample the portions of the photo for signature overlay
+The signature is optimized based on uniformity to determine exact borders of the signature. The size of new optimized signature is used as the size of the window to be used to sample the portions of the photo for signature overlay
 
 Final Deviation Percentage =
     (Total Window Deviation Percentage * Total Window Deviation Weight in Percentage
